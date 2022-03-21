@@ -16,4 +16,8 @@ http_error(resp) #. This method just verifies if the response is error free for 
 
 # Shows raw data which is not structured and readable
 jsonRespText<-content(resp,as="text") 
-jsonRespText
+#jsonRespText
+# Structurised data in form of R vectors and lists
+jsonRespParsed<-content(resp,as="parsed") 
+jsonRespParsed
+fromJSON(jsonRespText)
