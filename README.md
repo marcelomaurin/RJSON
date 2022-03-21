@@ -1,4 +1,4 @@
-# O objetivo deste trabalho é mostrar o uso prático do R em minha vida.
+# O objetivo deste trabalho é mostrar o uso prático do R.
 
 ## Referencia:
 https://datascienceplus.com/accessing-web-data-json-in-r-using-httr/
