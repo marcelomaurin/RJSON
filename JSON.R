@@ -8,7 +8,7 @@ library(jsonlite)
 library(dplyr)
 
 query<-list(page="2")
-resp<-GET("http://maurinsoft.com.br/ws/register/sconfila.php?token={token}",query=query)
+resp<-GET("http://maurinsoft.com.br/ws/register/sconfila.php?token={045F6EED-2C11-447D-A7DC-09DB995367C2}",query=query)
 #.When we get the response from API we will use to very basic methods of httr.
 http_type(resp)  #. This method will tell us what is the type of response fe
 
