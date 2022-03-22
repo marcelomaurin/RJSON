@@ -20,4 +20,6 @@ jsonRespText<-content(resp,as="text")
 # Structurised data in form of R vectors and lists
 jsonRespParsed<-content(resp,as="parsed") 
 jsonRespParsed
-fromJSON(jsonRespText)
+p<-fromJSON(jsonRespText)
+data<-p$rs
+data
